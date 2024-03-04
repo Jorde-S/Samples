@@ -1,0 +1,54 @@
+.row1{
+    margin-left: 500px;
+    color: blue;
+}
+
+.row2{
+    margin-left: 325px;
+    margin-top: 200px;
+    color: red;
+}
+
+.row3{
+    margin-left: 243px;
+    color: green;
+}
+
+.row4{
+    margin-left: 190px;
+    color: blue;
+}
+
+.row5{
+    margin-left: 157px;
+    color: red;
+}
+
+.peg{
+    cursor: pointer;
+}
+
+div{
+    margin-bottom: 100px;
+}
+
+.end{
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 40%;
+    border: solid;
+    padding: 100px;
+}
+
+#close{
+    position: absolute;
+    left: 90%;
+}
+
+#container{
+    margin: 0;
+    display: none;
+}
